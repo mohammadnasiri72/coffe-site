@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gandom;
+    src: url("./../public/fonts/Gandom.ttf");
+}
+.text-black-50{
+    color: rgba(0, 0, 0, 0.5);
+}
+body{
+    font-family: gandom;
+    overflow-x: hidden;
+}
+.home-img1{
+    background-image: url("../public/img/carousel-1.jpg");
+    background-color: rgb(90, 53, 43);
+    background-position: center;
+}
+.home-img2{
+    background-image: url("../public/img/carousel-2.jpg");
+    background-color: rgb(90, 53, 43);
+    background-position: center;
+}
+.bg-color-white{
+    background-image: url("./../public/img/overlay-bottom.png");
+    background-size: 30% 100%;    
+}
+.bg-color-black{
+    background-image: url("./../public/img/overlay-top.png");
+    background-size: 30% 100%;
+}
+.home-page{
+    background-image: url("../public/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(43, 43, 43);
+    background-blend-mode: multiply;
+    height: 70vh;
+}
+.footer{
+    background-image: url("../public/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-blend-mode: multiply;
+    padding-bottom: 10px;
+}
+.box-reserve{
+    background-image: url("../public/img/bg.jpg");
+    background-color: #33211d;
+}
